@@ -1,0 +1,52 @@
+Script started on Thu 30 Aug 2018 11:26:02 AM CDT
+[4makka[24m:[1m~/cs1521/labs/lab1/src[0m% pwd
+/home/csugrads/tayl1496/cs1521/labs/lab1/src
+[4makka[24m:[1m~/cs1521/labs/lab1/src[0m% ls -IR ~/
+cs1521
+[4makka[24m:[1m~/cs1521/labs/lab1/src[0m% cat -n CMakeLists.txt
+     1	add_executable(tictactoe player.cpp board.cpp game.cpp main.cpp)
+[4makka[24m:[1m~/cs1521/labs/lab1/src[0m% cd build
+[4makka[24m:[1m~/cs1521/labs/lab1/src/build[0m% cmake ..
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/csugrads/tayl1496/cs1521/labs/lab1/src/build
+[4makka[24m:[1m~/cs1521/labs/lab1/src/build[0m% make
+[35m[1mScanning dependencies of target tictactoe[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/tictactoe.dir/player.cpp.o[0m
+In file included from [01m[K/home/csugrads/tayl1496/cs1521/labs/lab1/src/player.cpp:11:0[m[K:
+[01m[K/home/csugrads/tayl1496/cs1521/labs/lab1/src/player.h:35:24:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+    virtual ~Player() = default;
+[01;32m[K                        ^[m[K
+[ 40%] [32mBuilding CXX object CMakeFiles/tictactoe.dir/board.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/tictactoe.dir/game.cpp.o[0m
+In file included from [01m[K/home/csugrads/tayl1496/cs1521/labs/lab1/src/game.h:13:0[m[K,
+                 from [01m[K/home/csugrads/tayl1496/cs1521/labs/lab1/src/game.cpp:11[m[K:
+[01m[K/home/csugrads/tayl1496/cs1521/labs/lab1/src/player.h:35:24:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+    virtual ~Player() = default;
+[01;32m[K                        ^[m[K
+[ 80%] [32mBuilding CXX object CMakeFiles/tictactoe.dir/main.cpp.o[0m
+In file included from [01m[K/home/csugrads/tayl1496/cs1521/labs/lab1/src/game.h:13:0[m[K,
+                 from [01m[K/home/csugrads/tayl1496/cs1521/labs/lab1/src/main.cpp:12[m[K:
+[01m[K/home/csugrads/tayl1496/cs1521/labs/lab1/src/player.h:35:24:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+    virtual ~Player() = default;
+[01;32m[K                        ^[m[K
+[100%] [32m[1mLinking CXX executable tictactoe[0m
+[100%] Built target tictactoe
+[4makka[24m:[1m~/cs1521/labs/lab1/src/build[0m% exit
+exit
+
+Script done on Thu 30 Aug 2018 11:27:30 AM CDT

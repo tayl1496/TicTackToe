@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/board.cpp
+iostream
+-
+board.h
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/board.h
+
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/board.h
+
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/game.cpp
+iostream
+-
+game.h
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/game.h
+
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/game.h
+board.h
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/board.h
+player.h
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/player.h
+
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/main.cpp
+iostream
+-
+cstdlib
+-
+game.h
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/game.h
+
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/player.cpp
+iostream
+-
+player.h
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/player.h
+board.h
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/board.h
+
+/home/csugrads/tayl1496/cs1521/labs/lab1/src/player.h
+
